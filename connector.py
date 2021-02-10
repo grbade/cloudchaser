@@ -13,10 +13,10 @@ from couchbase.management.queries import CreatePrimaryQueryIndexOptions
 #return
 ############## Remove me to activate again
 
-endpoint = '163de767-a39d-4474-8f06-10efe90849b3.dp.cloud.couchbase.com'
-username = "dbuser"
-password = "cloudchasersQ!1"
-bucketName = 'couchbasecloudbucket'
+endpoint = ''
+username = ''
+password = ''
+bucketName = ''
 
 # Initialize the Connection
 cluster = Cluster('couchbases://' + endpoint + '?ssl=no_verify', ClusterOptions(PasswordAuthenticator(username, password)))
